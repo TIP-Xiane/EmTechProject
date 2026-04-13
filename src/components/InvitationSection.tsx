@@ -86,7 +86,7 @@ const InvitationSection = () => {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row justify-center items-center gap-3 mb-4">
             <Button
-              onClick={() => (window.location.href = "/invitation-details")}
+              onClick={() => window.open("https://wedding-page-emtech1.vercel.app/", "_blank")}
               className="px-8 py-2 rounded-xl bg-amber-800 text-white hover:bg-amber-700 shadow-[0_10px_25px_-8px_rgba(101,67,33,0.65)] text-sm"
             >
               View Wedding Details
