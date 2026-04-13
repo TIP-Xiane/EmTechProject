@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import flowertop from "@/assets/flowertop.png";
 import flowerbot from "@/assets/flowerbot.png";
 
-const WEDDING_DATE = new Date("2026-12-28T16:00:00");
+const WEDDING_DATE = new Date("2026-04-25T16:00:00");
 
 const computeDaysUntil = (target: Date) => {
   const diff = Math.max(target.getTime() - new Date().getTime(), 0);
