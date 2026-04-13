@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import flowertop from "@/assets/flowertop.png";
 import flowerbot from "@/assets/flowerbot.png";
 
-const WEDDING_DATE = new Date("2026-05-05T16:00:00");
+const WEDDING_DATE = new Date("2026-12-28T16:00:00");
 
 const computeDaysUntil = (target: Date) => {
   const diff = Math.max(target.getTime() - new Date().getTime(), 0);
@@ -75,7 +75,7 @@ const InvitationSection = () => {
 
           {/* Line 2 - Highlight */}
           <h1 className="text-5xl md:text-6xl text-amber-900" style={{ fontFamily: "'Satisfy', cursive", fontWeight: 400, letterSpacing: "0.05em" }}>
-            Amelia & Charles
+            Romeo & Juliet
           </h1>
 
           {/* Line 3 */}
